@@ -1,0 +1,25 @@
+[project]
+name = "uk-postcode-checker"
+version = "0.1.0"
+description = "A library to validate and format UK postcodes"
+readme = "README.md"
+authors = [
+    {name = "Volodymyr Popov", email = "smartappsvp@gmail.com"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/uk-postcode-checker"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
